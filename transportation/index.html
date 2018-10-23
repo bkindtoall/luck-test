@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3-3-1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+      <div class="container">
+        <div class="jumbotron">
+          <h2>Fortune Teller</h2>
+        </div>
+        <form id="fortune-teller">
+          <div class="form-group">
+            <p>Are you feeling lucky this month?</p>
+            <input type="checkbox" name="lucky" value="raffle"> Winning a raffle.<br>
+            <input type="checkbox" name="lucky" value="bed">Waking up on the right side of the bed.<br>
+            <input type="checkbox" name="lucky" value="penny">Found a penny.<br>
+            <input type="checkbox" name="lucky" value="clover">Found a four leaf clover.<br>
+            <input type="checkbox" name="lucky" value="jackpot">Hit a jackpot.<br>
+            <input type="checkbox" name="lucky" value="bonus">got a bonus.<br>
+
+            <input type="checkbox" name="unlucky" value="cat">Black cat crossed your path.<br>
+            <input type="checkbox" name="unlucky" value="mirror">broke a mirror.<br>
+            <input type="checkbox" name="unlucky" value="ladder">Walked under a ladder<br>
+            <input type="checkbox" name="unlucky" value="crack">Stepped on a crack<br>
+
+          </div>
+         <button type="submit">Submit Survey</button>
+        </form>
+          <br>
+          <p id ="result"></p>
+      </div>
+  </body>
+</html>
